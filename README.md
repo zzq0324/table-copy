@@ -22,6 +22,7 @@ db-migration是一个数据库表备份的工具。由于使用create table sele
 * 日志说明:日志位于logs目录下,名称为`run.log`
     *  线程每次开始迁移之前会打印当前的startId和endId,如`will execute at startId=14480, endId=14597`
     *  程序每隔10s就会打印迁移情况,如`src table count: 10548, dest table count: 10548`
+    
 ## 运行速度
 根据运行情况，将近3000w的数据大约8分钟可以迁移完成，具体和服务器的配置有关系。
 
