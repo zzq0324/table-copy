@@ -1,4 +1,4 @@
-# db-migration
+# table-copy
 
 ## 工具说明
 db-migration是一个数据库表备份的工具。由于使用create table select备份的方式会导致表中原有的索引丢失，如果紧急情况下需要使用备份表，会造成索引无法使用的情况，可能带来灾难性的后果。db-migration采用多线程方式进行分段数据的拷贝插入，效率会更高。
